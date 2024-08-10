@@ -1,0 +1,25 @@
+.page{
+    background-color: rgb(255, 205, 205);
+    text-align: center;
+    color: brown;
+}
+
+.item {
+    background-color: #dfd4b1;
+    height: 50px;
+    width: 156px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+  }
+
+  .alphabet {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    background-color: #a00cdf;
+    padding: 5px;
+    border-radius: 5px;
+  }
