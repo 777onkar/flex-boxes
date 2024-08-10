@@ -48,6 +48,28 @@
     border-radius: 5px;
     flex-direction: row-reverse;
   }
+  .item-3{
+    background-color: #dfd4b1;
+    height: 50px;
+    width: 156px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    box-shadow: 1px 1px 5px 5px rgb(94, 36, 36);
+  }
+  
+  .three{
+    height: 500px;
+    width: 200px;
+    display: flex;
+    background-color: #a00cdf;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+  }
+  
 
 
 
