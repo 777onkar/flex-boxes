@@ -4,7 +4,7 @@
     color: brown;
 }
 
-.item {
+.item-1{
     background-color: #dfd4b1;
     height: 50px;
     width: 156px;
@@ -13,13 +13,41 @@
     padding: 10px;
     border-radius: 10px;
     border: solid 1px white;
+    box-shadow: 1px 1px 5px 5px rgb(94, 36, 36);
+
   }
 
-  .alphabet {
+  .one{
     height: 100px;
     width: 500px;
     display: flex;
     background-color: #a00cdf;
     padding: 5px;
     border-radius: 5px;
+    flex-direction: row;
   }
+  
+
+  .item-2{
+    background-color: #dfd4b1;
+    height: 50px;
+    width: 156px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    box-shadow: 1px 1px 5px 5px rgb(94, 36, 36);
+  }
+  .two{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    background-color: #a00cdf;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+  }
+
+
+
