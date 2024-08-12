@@ -207,18 +207,18 @@
         justify-content:space-between;
       }
 
-      .item-10
-      {
-          background-color: #dfd4b1;
-          height: 50px;
-          width: 156px;
-          margin: 10px;
-          font-size: 20px;
-          padding: 10px;
-          border-radius: 10px;
-          border: solid 1px white;
-          box-shadow: 1px 1px 5px 5px rgb(94, 36, 36);
-        }
+      .item-10{
+        background-color: #dfd4b1;
+        height: 50px;
+        width: 156px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: solid 1px white;
+        box-shadow: 1px 1px 5px 5px rgb(94, 36, 36);
+      }
+      
         .ten{
           height: 100px;
           width: 1550px;
@@ -227,8 +227,43 @@
           padding: 5px;
           border-radius: 5px;
           flex-direction: row;
-          justify-content:space-around;
+          flex-wrap: wrap;
         }
+
+        .eleven{
+          height: 200px;
+          width: 1550px;
+          display: flex;
+          background-color: #a00cdf;
+          padding: 5px;
+          border-radius: 5px;
+          align-items: start;
+        }
+
+        .twele{
+          height: 200px;
+          width: 1550px;
+          background-color: #a00cdf;
+          padding: 5px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: row;
+          align-items: end;
+
+        }
+
+        .thirty{
+          height: 200px;
+          width: 1550px;
+          display: flex;
+          background-color: #a00cdf;
+          padding: 5px;
+          border-radius: 5px;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
   
 
 
